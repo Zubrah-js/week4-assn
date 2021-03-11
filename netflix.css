@@ -1,0 +1,162 @@
+@import url("https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Netflix Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a .contact_us_link {
+  color: #e50914;
+}
+.navigation {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem auto;
+  height: 4rem;
+}
+
+span {
+  color: #fff;
+}
+.netflix-logo {
+  fill: #e50914;
+  width: 5.8rem;
+}
+
+.left,
+.right {
+  display: flex;
+  margin: 0 1rem;
+}
+
+.navigationPtag {
+  color: #fff;
+}
+
+.link1 {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+button {
+  padding: 3px;
+  margin: 5px;
+}
+.button1,
+.button2 {
+  color: #fff;
+  border-radius: 2px;
+  font-size: smaller;
+  font-weight: 400;
+}
+.button1 {
+  background-color: black;
+  border: 0.5px solid #fff;
+}
+.button2 {
+  background-color: #e50914;
+  border-style: none;
+}
+
+.section2 {
+  margin: 1rem 2rem;
+  padding: 10px 0;
+}
+/* .container2 {
+  /* height: 1rem; */
+/* margin-top: 2rem; 
+} */
+
+.link2 {
+  text-decoration: none;
+  color: #e50914;
+  /* padding: 1rem auto; */
+  font-size: 15px;
+  display: flex;
+  /* margin-top: 2rem; */
+}
+
+.container3 {
+  display: grid;
+  /* place-items:inherit; */
+  margin: 1rem 0.5rem;
+}
+h2 {
+  font-size: 32px;
+  margin: 2rem 0;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 23px;
+  margin: 0.8rem 0;
+}
+
+h4 {
+  padding: 1rem 0;
+}
+
+p {
+  margin: 0.8rem 0;
+  font-size: 18px;
+}
+article {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+hr {
+  border: 0.1px solid grey;
+  opacity: 0.2;
+}
+
+.bodyButton {
+  margin: 1.5rem 0;
+  /* padding: 3px 4px; */
+  text-decoration: none;
+  background-color: white;
+  border: 0.5px solid black;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  font-family: "Netflix Sans", sans-serif;
+}
+.play_store {
+  display: flex;
+  align-items: center;
+}
+
+.image_logo {
+  width: 140px;
+}
+/* css for section3 begins underneath */
+
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin-top: 1.5rem;
+  padding: 2rem 2rem;
+}
+
+.footlink {
+  color: grey;
+  display: block;
+  padding: 0.5rem;
+  font-family: "Netflix Sans", sans-serif;
+}
+
+#Languages {
+  padding: 15px 50px;
+  font-family: "Netflix Sans", sans-serif;
+  color: grey;
+  background-color: black;
+  font-weight: 700;
+}
